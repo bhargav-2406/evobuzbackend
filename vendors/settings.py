@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-@6yxa#=1r2^+mwudp9ffgm!d8pe#!ur2q)4jp+u6!nhfvpo+tg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [evobuzbackend.onrender.com]
 
 
 # Application definition
