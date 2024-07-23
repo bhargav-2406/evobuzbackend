@@ -9,5 +9,5 @@ class ProductSerializer(serializers.ModelSerializer):
 
 class ServicesSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Serivices
+        model = Services
         fields = '__all__'
