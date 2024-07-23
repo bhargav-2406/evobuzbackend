@@ -43,10 +43,10 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-#CORS_ALLOWED_ORIGINS = [
-   # "http://localhost:3000",
+CORS_ALLOWED_ORIGINS = [
+   "http://localhost:3000",
     
-#]
+]
 #postgresql://evobuz_user:urlrMxpZqg9qY65KFkcqpPY6UXZvigvT@dpg-cqf0788gph6c73b2lf8g-a.oregon-postgres.render.com/evobuz
 CORS_ALLOW_ALL_ORIGINS = True
 
